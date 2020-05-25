@@ -4,3 +4,5 @@ def using_flatten(array)
   array.flatten
 end
 p using_flatten(b)
+
+
