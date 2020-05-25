@@ -1,3 +1,6 @@
+def using_insert(array,element)
+  array.insert(4,element)
+end
 
 def using_delete_at(array,integer)
   array.delete_at(integer)
@@ -15,9 +18,7 @@ def using_uniq(array)
   array.uniq
 end
 
-def using_insert(array,element)
-  array.insert(4,element)
-end
+
 
 def using_concat(array,new_array)
   array.concat(new_array)
